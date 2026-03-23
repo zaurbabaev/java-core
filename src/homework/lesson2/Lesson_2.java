@@ -1,6 +1,6 @@
-package homework.homework_2;
+package homework.lesson2;
 
-public class Homework_2 {
+public class Lesson_2 {
     public static void main(String[] args) {
 
         byte b_binary = 0B1100;
