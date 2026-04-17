@@ -2,9 +2,9 @@ package lesson_7;
 
 public class Employee {
 
-    public double salary;
+    private double salary;
 
-    public void dvoynayaZp() {
+    private void dvoynayaZp() {
         System.out.printf("Novaya z/p = %.2f %n", salary * 2);
     }
 
