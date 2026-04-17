@@ -1,4 +1,4 @@
-package lesson6;
+package lesson_6;
 
 /* Constructor overloading */
 public class Employee {
@@ -39,7 +39,7 @@ public class Employee {
         this(id, surname, age, 0.0, "IT");
     }
 
-    Employee(String surname, int age) {
+   public Employee(String surname, int age) {
         this(0, surname, age);
     }
 
