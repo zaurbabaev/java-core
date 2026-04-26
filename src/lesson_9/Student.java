@@ -1,5 +1,6 @@
 package lesson_9;
 
+// object life cycle
 public class Student {
 
 }
