@@ -3,6 +3,9 @@ package lesson_9;
 // object life cycle
 public class Student {
 
+    public String name;
+    public int age;
+    public static int count;
 }
 
 class StudentTest {
