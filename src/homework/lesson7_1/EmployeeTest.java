@@ -1,4 +1,4 @@
-package homework.lesson_7_1;
+package homework.lesson7_1;
 
 public class EmployeeTest {
     public static void main(String[] args) {
