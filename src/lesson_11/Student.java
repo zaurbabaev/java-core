@@ -5,7 +5,7 @@ public class Student {
 
     public String name;
     public int course;
-    double grade;
+    public double grade;
 
     public Student(String name, int course, double grade) {
         this.name = name;
