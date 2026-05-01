@@ -1,4 +1,4 @@
-package homework.lessson10.p4;
+package homework.lesson10.p4;
 
 public class D {
 

@@ -1,4 +1,4 @@
-package homework.lessson10.p1.p2.p3;
+package homework.lesson10.p1.p2.p3;
 
 public class C {
 
