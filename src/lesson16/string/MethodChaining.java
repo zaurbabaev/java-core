@@ -1,0 +1,17 @@
+package lesson16.string;
+
+// metodların soldan sağa doğru icra olunması
+public class MethodChaining {
+
+    public static void main(String[] args) {
+        String s1 = "Hello World";
+        String s2 = "Urrraaaaaa!!!";
+        String s3 = s1.concat(s2).trim().replace("Urrraaaaaa", "УРА").substring(6, 10); // Worl // method chainingdir
+        System.out.println(s3);
+        System.out.println(s1.substring(s1.indexOf('W'))); // World // method chaining deyil
+
+
+        
+
+    }
+}
