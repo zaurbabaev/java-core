@@ -6,7 +6,16 @@ public class Human {
         this.name = name;
     }*/
 
-    public String name;
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public static int salary = 150;
 
     public void work() {
@@ -22,10 +31,11 @@ class Student extends Human {
 
     public static void main(String[] args) {
         Student student = new Student();
-        System.out.println(student.name);
+//        System.out.println(student.name);
+        System.out.println(student.getName());
         System.out.println(Student.salary);
         student.work();
-        student.rest(); 
+        Student.rest();
 
 
     }
